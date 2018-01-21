@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-faceCascade = cv2.CascadeClassifier('C:/Users/Rajkumar/Downloads/opencv/sources/data/haarcascades/HS.xml')
+faceCascade = cv2.CascadeClassifier('HS.xml')
 video_capture = cv2.VideoCapture(0)
 
 while True:
